@@ -1,0 +1,204 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 18963,
+            "type": "VEC3",
+            "max": [
+                2.2454745769500732,
+                3.0997860431671143,
+                1.1017292737960815
+            ],
+            "min": [
+                -2.3030166625976563,
+                -0.004047214984893799,
+                -2.9414350986480713
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 18963,
+            "type": "VEC3",
+            "max": [
+                0.9999198913574219,
+                0.9999338388442993,
+                0.9999920725822449
+            ],
+            "min": [
+                -0.9999980926513672,
+                -1.0,
+                -0.9998874664306641
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 18963,
+            "type": "VEC2",
+            "max": [
+                0.9917898178100586,
+                0.996027946472168
+            ],
+            "min": [
+                0.004417438991367817,
+                0.006475865840911865
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 104172,
+            "type": "SCALAR",
+            "max": [
+                18962
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1023504,
+            "uri": "Garmon_immg_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 227556,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 227556,
+            "byteLength": 227556,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 455112,
+            "byteLength": 151704,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 606816,
+            "byteLength": 416688,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "49",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            },
+            "alphaCutoff": 0.10000000149011612,
+            "alphaMode": "MASK",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Garmon_immg",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "root",
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "root"
+            }
+        },
+        {
+            "name": "node_id30",
+            "matrix": [
+                0.028582030907273293,
+                0.0,
+                0.02556527964770794,
+                0.0,
+                0.0,
+                0.038347311317920685,
+                0.0,
+                0.0,
+                -0.02556527964770794,
+                0.0,
+                0.028582030907273293,
+                0.0,
+                -0.02726595848798752,
+                -0.028600512072443962,
+                0.2823285758495331,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "node_id30"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9985
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
